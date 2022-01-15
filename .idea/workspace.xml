@@ -1,5 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5b001c96-1223-4e97-b491-08660782e875" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_01_HelloWorld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_HelloWorld/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_HelloWorld/src/main/java/pojo/po/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_HelloWorld/src/main/java/pojo/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_HelloWorld/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_01_HelloWorld/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_MapperInterface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_MapperInterface/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_MapperInterface/src/main/java/dao/PhoneMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_MapperInterface/src/main/java/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_MapperInterface/src/main/java/pojo/po/PhonePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_MapperInterface/src/main/java/pojo/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_MapperInterface/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_02_MapperInterface/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_01_DefaultConfigSpringMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_01_DefaultConfigSpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_02_ExtraConfigSpringMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_02_ExtraConfigSpringMVC/src/main/java/controller/TestThymeleaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_02_ExtraConfigSpringMVC/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_02_ExtraConfigSpringMVC/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_02_ExtraConfigSpringMVC/src/main/webapp/WEB-INF/templates/target.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_02_ExtraConfigSpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/src/main/java/_01_Property/TestPropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/src/main/java/_02_AntStyle/TestAntController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/src/main/java/_03_placeholder/TestPlaceholderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/src/main/java/_04_RequestParams/TestParamsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/src/main/java/_04_RequestParams/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_03_RequestMapping/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_04_ShareScopeData/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_04_ShareScopeData/src/main/java/_01_TestEnvironment/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_04_ShareScopeData/src/main/java/_02_ShareScopeData/ShareScopeDataController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_04_ShareScopeData/src/main/java/_03_View/ViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_04_ShareScopeData/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_04_ShareScopeData/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_04_ShareScopeData/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_04_ShareScopeData/src/main/webapp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_05_InternalResourceView/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_05_InternalResourceView/src/main/java/_01_InternalResourceView/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_05_InternalResourceView/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_05_InternalResourceView/src/main/webapp/WEB-INF/templates/testInternalResourceView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_05_InternalResourceView/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_06_RESTfulDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_06_RESTfulDemo/src/main/java/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_06_RESTfulDemo/src/main/java/pojo/po/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_06_RESTfulDemo/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_06_RESTfulDemo/src/main/webapp/WEB-INF/templates/employee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_06_RESTfulDemo/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_06_RESTfulDemo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_07_HttpMessageConverter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_07_HttpMessageConverter/src/main/java/_01_HttpMessageConverter/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_07_HttpMessageConverter/src/main/java/_01_HttpMessageConverter/pojo/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_07_HttpMessageConverter/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_07_HttpMessageConverter/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_07_HttpMessageConverter/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_08_FileUploadAndDownload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_08_FileUploadAndDownload/src/main/java/controller/FileContorller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_08_FileUploadAndDownload/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_08_FileUploadAndDownload/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_08_FileUploadAndDownload/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_08_FileUploadAndDownload/src/main/webapp/static.img/qiuqiu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_09_Interceptor/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_09_Interceptor/src/main/java/controller/TestContorller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_09_Interceptor/src/main/java/interceptor/BeanInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_09_Interceptor/src/main/java/interceptor/RefInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_09_Interceptor/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_09_Interceptor/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_09_Interceptor/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_10_ExceptionCatch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_10_ExceptionCatch/src/main/java/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_10_ExceptionCatch/src/main/resources/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_10_ExceptionCatch/src/main/webapp/WEB-INF/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_10_ExceptionCatch/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_10_ExceptionCatch/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_11_AnnotationConfigSpringMVC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_11_AnnotationConfigSpringMVC/src/main/java/_01_ConfigSpringMVC/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_11_AnnotationConfigSpringMVC/src/main/java/_01_ConfigSpringMVC/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_11_AnnotationConfigSpringMVC/src/main/java/_01_ConfigSpringMVC/config/WebInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_11_AnnotationConfigSpringMVC/src/main/java/_01_ConfigSpringMVC/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_11_AnnotationConfigSpringMVC/src/main/java/_01_ConfigSpringMVC/interceptor/TestInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_11_AnnotationConfigSpringMVC/src/main/webapp/WEB-INF/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_11_AnnotationConfigSpringMVC/src/main/webapp/WEB-INF/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/Maven__com_alibaba_druid_1_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/Maven__junit_junit_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/com_springsource_net_sf_cglib_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/com_springsource_org_aspectj_weaver_1_6_8_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/spring_aop_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/libraries/spring_aspects_5_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/SpringAOPDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/com.springsource.net.sf.cglib-2.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/com.springsource.org.aopalliance-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/spring-aop-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/spring-aspects-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/spring-beans-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/spring-context-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/spring-core-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/lib/spring-expression-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_01_DynamicProxy/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_01_DynamicProxy/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_01_DynamicProxy/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_01_DynamicProxy/UserServiceProxyWarpper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_02_AnnotationExecution/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_02_AnnotationExecution/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_02_AnnotationExecution/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_02_AnnotationExecution/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_02_AnnotationExecution/proxy/UserServiceImplProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_03_CommonPointCut/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_03_CommonPointCut/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_03_CommonPointCut/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_03_CommonPointCut/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_03_CommonPointCut/proxy/UserServiceImplProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_04_XMLExecution/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_04_XMLExecution/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_04_XMLExecution/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/java/_04_XMLExecution/proxy/UserServiceImplProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAOPDemo/src/main/resources/XMLExecution.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/SpringAnnotationDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/lib/spring-aop-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/lib/spring-beans-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/lib/spring-context-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/lib/spring-core-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/lib/spring-expression-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_01_CreateBean/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_01_CreateBean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_02_Filter/ComponentClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_02_Filter/ControllerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_02_Filter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_02_Filter/RepositoryClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_02_Filter/ServiceClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_03_DependenceInject/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_03_DependenceInject/PhoneDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_03_DependenceInject/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_03_DependenceInject/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_03_DependenceInject/impl/PhoneDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_03_DependenceInject/impl/UserDaoImplOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_03_DependenceInject/impl/UserDaoImplTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_03_DependenceInject/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_04_OnlyAnnotationDev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_04_OnlyAnnotationDev/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/java/_04_OnlyAnnotationDev/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/resources/CreateBean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/resources/DependenceInject.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringAnnotationDemo/src/main/resources/Filter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/SpringJdbcTemplateDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/lib/spring-beans-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/lib/spring-context-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/lib/spring-core-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/lib/spring-expression-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/lib/spring-jdbc-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/lib/spring-tx-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/java/_01_JDBCTemplateDemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/java/_01_JDBCTemplateDemo/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/java/_01_JDBCTemplateDemo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/java/_01_JDBCTemplateDemo/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/java/_01_JDBCTemplateDemo/pojo/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/java/_01_JDBCTemplateDemo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/java/_01_JDBCTemplateDemo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/resources/JDBCTemplateDemo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/main/resources/databaseConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/test/java/_01_JDBCTemplateDemo/TestDatabaseConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringJdbcTemplateDemo/src/test/java/_01_JDBCTemplateDemo/TestDruid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/SpringTransactionsDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/spring-aop-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/spring-aspects-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/spring-beans-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/spring-context-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/spring-core-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/spring-expression-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/spring-jdbc-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/lib/spring-tx-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_01_TransactionsDemo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_01_TransactionsDemo/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_01_TransactionsDemo/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_01_TransactionsDemo/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_01_TransactionsDemo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_01_TransactionsDemo/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_02_XmlTransactions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_02_XmlTransactions/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_02_XmlTransactions/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_02_XmlTransactions/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_02_XmlTransactions/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_02_XmlTransactions/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_03_OnlyAnnocationTransactions/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_03_OnlyAnnocationTransactions/SpringTransactionsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_03_OnlyAnnocationTransactions/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_03_OnlyAnnocationTransactions/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_03_OnlyAnnocationTransactions/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_03_OnlyAnnocationTransactions/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/java/_03_OnlyAnnocationTransactions/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/resources/TransactionsDemo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/resources/XmlTransactions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringTransactionsDemo/src/main/resources/databaseConfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringXMLDemo/src/main/java/_11_InjectOutProperty/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringXMLDemo/src/main/java/_11_InjectOutProperty/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringXMLDemo/src/main/resources/beanInjectOutProperty.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringXMLDemo/src/main/resources/beanProperty.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Test/17_TestIDEA/TestIDEA/src/_01_TestFieldWatchpoints/TestFieldWatchpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Test/17_TestIDEA/TestIDEA/src/_02_TestMethodBreakpoints/TestMethodBreakpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Test/17_TestIDEA/TestIDEA/src/_03_ExceptionBreakpoints/TestExceptionBreakpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../C-C++/ImmerseInProblem/.vs/ImmerseInProblem/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../C-C++/ImmerseInProblem/.vs/ImmerseInProblem/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../C-C++/ImmerseInProblem/.vs/ImmerseInProblem/v16/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../C-C++/ImmerseInProblem/.vs/ImmerseInProblem/v16/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../C-C++/ImmerseInProblem/.vs/ImmerseInProblem/v16/Solution.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../C-C++/ImmerseInProblem/.vs/ImmerseInProblem/v16/Solution.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringXMLDemo/SpringXMLDemo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringXMLDemo/SpringXMLDemo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringXMLDemo/target/classes/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SpringStudy/Demos/SpringStudy/SpringXMLDemo/target/classes/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Python/Test/02_Test_Notion/notion-py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Python/Test/02_Test_Notion/notion-py/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="23h9xMY5YyYuI7j7Ap0iTrOWj82" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -9,6 +281,148 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/MyFiles/CodeFile/Project/10_PartyAffairsAssistant/PartyAffairsAssistant" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_02_MapperInterface/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_02_MapperInterface\src\main\java" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_02_MapperInterface\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_01_HelloWorld\src\main\resources\mapper" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_01_HelloWorld\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Main.testHelloWorld (1)">
+    <configuration name="Main.getSqlSessionFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_02_MapperInterface" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="getSqlSessionFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.testHelloWorld (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_02_MapperInterface" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.testHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_01_HelloWorld" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Main.testHelloWorld (1)" />
+        <item itemvalue="JUnit.Main.testHelloWorld" />
+        <item itemvalue="JUnit.Main.getSqlSessionFactory" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b001c96-1223-4e97-b491-08660782e875" name="Default Changelist" comment="" />
+      <created>1642175696147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642175696147</updated>
+      <workItem from="1642175697395" duration="604000" />
+      <workItem from="1642210878270" duration="2772000" />
+      <workItem from="1642215610861" duration="3425000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="337" y="361" key="#SQL_Dialects" timestamp="1642215822378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="337" y="361" key="#SQL_Dialects/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642215822378" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642215828039">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642215828039" />
+    <state x="579" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1642216952290">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="579" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642216952290" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1642216252977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642216252977" />
+    <state width="1877" height="471" key="GridCell.Tab.0.bottom" timestamp="1642223453120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="471" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642223453120" />
+    <state width="1877" height="471" key="GridCell.Tab.0.center" timestamp="1642223453120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="471" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642223453120" />
+    <state width="1877" height="471" key="GridCell.Tab.0.left" timestamp="1642223453119">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="471" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642223453119" />
+    <state width="1877" height="471" key="GridCell.Tab.0.right" timestamp="1642223453120">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="471" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642223453120" />
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642216250047">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642216250047" />
+    <state x="334" y="129" key="new project wizard" timestamp="1642216941170">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642216941170" />
   </component>
 </project>
