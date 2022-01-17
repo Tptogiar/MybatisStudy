@@ -7,14 +7,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="_04_MapperCURD" />
         <module name="_02_MapperInterface" />
-        <module name="_01_HelloWorld" />
         <module name="MybatisStudy" />
+        <module name="_01_HelloWorld" />
+        <module name="_03_ConfigMyBatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="_01_HelloWorld" target="1.5" />
       <module name="_02_MapperInterface" target="1.5" />
+      <module name="_03_ConfigMyBatis" target="1.5" />
+      <module name="_04_MapperCURD" target="1.5" />
       <module name="MybatisStudy" target="1.5" />
     </bytecodeTargetLevel>
   </component>

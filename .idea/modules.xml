@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/MybatisStudy.iml" filepath="$PROJECT_DIR$/MybatisStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/_01_HelloWorld/_01_HelloWorld.iml" filepath="$PROJECT_DIR$/_01_HelloWorld/_01_HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/_02_MapperInterface/_02_MapperInterface.iml" filepath="$PROJECT_DIR$/_02_MapperInterface/_02_MapperInterface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_03_ConfigMyBatis/_03_ConfigMyBatis.iml" filepath="$PROJECT_DIR$/_03_ConfigMyBatis/_03_ConfigMyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_04_MapperCURD/_04_MapperCURD.iml" filepath="$PROJECT_DIR$/_04_MapperCURD/_04_MapperCURD.iml" />
     </modules>
   </component>
 </project>

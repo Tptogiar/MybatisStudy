@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/_01_HelloWorld/pom.xml" />
         <option value="$PROJECT_DIR$/_02_MapperInterface/pom.xml" />
+        <option value="$PROJECT_DIR$/_03_ConfigMyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/_04_MapperCURD/pom.xml" />
       </list>
     </option>
   </component>
