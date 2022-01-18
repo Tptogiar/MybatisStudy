@@ -1,10 +1,10 @@
-import dao.UserMapper;
+import dao.EmployeeMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
-import pojo.po.UserPO;
+import pojo.po.Employee;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -25,15 +25,14 @@ public class Main {
 
 
     @Test
-    public void testHelloWorld() throws IOException {
+    public void addEmp() throws IOException {
         SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
         SqlSession sqlSession = sqlSessionFactory.openSession();
         try {
-            UserMapper mapper = sqlSession.getMapper(UserMapper.class);
-            UserPO userPO1 = mapper.getUserById(1);
-            UserPO userPO2 = mapper.getUserById(1);
-            System.out.println(userPO1);
-            System.out.println(userPO2);
+            EmployeeMapper mapper = sqlSession.getMapper(EmployeeMapper.class);
+            Long aLong = mapper.addEmp(new Employee("last1", "252@", "sd"));
+            sqlSession.commit();
+            System.out.println(aLong);
         } finally {
             sqlSession.close();
         }

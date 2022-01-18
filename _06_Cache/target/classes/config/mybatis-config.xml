@@ -10,9 +10,6 @@
         <setting name="mapUnderscoreToCamelCase" value="true"/>
     </settings>
 
-    <typeAliases>
-        <typeAlias type="pojo.po.UserPO"/>
-    </typeAliases>
 
     <environments default="test">
         <environment id="development">
@@ -36,11 +33,16 @@
 
     </environments>
 
-
+    <databaseIdProvider type="DB_VENDOR">
+        <!-- 为不同的数据库厂商起别名 -->
+        <property name="MySQL" value="mysql"/>
+        <property name="Oracle" value="oracle"/>
+        <property name="SQL Server" value="sqlserver"/>
+    </databaseIdProvider>
 
     <mappers>
         <mapper resource="mapper/UserMapper.xml"/>
-<!--        <package name="mapper"/>-->
+        <mapper resource="mapper/EmployeeMapper.xml"/>
     </mappers>
     
 </configuration>

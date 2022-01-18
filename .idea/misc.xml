@@ -8,6 +8,9 @@
         <option value="$PROJECT_DIR$/_02_MapperInterface/pom.xml" />
         <option value="$PROJECT_DIR$/_03_ConfigMyBatis/pom.xml" />
         <option value="$PROJECT_DIR$/_04_MapperCURD/pom.xml" />
+        <option value="$PROJECT_DIR$/_05_DynamicSQL/pom.xml" />
+        <option value="$PROJECT_DIR$/_06_Cache/pom.xml" />
+        <option value="$PROJECT_DIR$/_07_Ehcache/pom.xml" />
       </list>
     </option>
   </component>

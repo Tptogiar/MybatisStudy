@@ -1,9 +1,11 @@
+import dao.EmployeeMapper;
 import dao.UserMapper;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import org.junit.Test;
+import pojo.po.Employee;
 import pojo.po.UserPO;
 
 import java.io.IOException;
@@ -25,7 +27,7 @@ public class Main {
 
 
     @Test
-    public void testHelloWorld() throws IOException {
+    public void testCache() throws IOException {
         SqlSessionFactory sqlSessionFactory = getSqlSessionFactory();
         SqlSession sqlSession = sqlSessionFactory.openSession();
         try {

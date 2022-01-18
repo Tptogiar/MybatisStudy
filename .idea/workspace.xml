@@ -56,6 +56,30 @@
       <change afterPath="$PROJECT_DIR$/_04_MapperCURD/src/main/resources/config/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/_04_MapperCURD/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/_04_MapperCURD/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/java/dao/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/java/pojo/po/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/java/pojo/po/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/java/pojo/po/PhonePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/java/pojo/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/resources/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_05_DynamicSQL/src/main/resources/mapper/EmployeeMapperDynamicSQL.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/java/dao/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/java/dao/PhoneMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/java/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/java/pojo/po/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/java/pojo/po/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/java/pojo/po/PhonePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/java/pojo/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/resources/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_06_Cache/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_07_Ehcache/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_01_DefaultConfigSpringMVC/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../SpringMVCStudy/Demos/SpringMVCStudy/_01_DefaultConfigSpringMVC/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
@@ -306,7 +330,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_04_MapperCURD/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_06_Cache/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -324,14 +348,25 @@
       <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_01_HelloWorld\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_04_MapperCURD\src\main\resources\mapper" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_04_MapperCURD\src\main\java\pojo\po" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_04_MapperCURD\src\main\java\dao" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_04_MapperCURD\src\main\resources" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_04_MapperCURD\src\main\java" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_06_Cache\src\main\resources" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_06_Cache\src\main\java" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_05_DynamicSQL\src\main\resources\mapper" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_05_DynamicSQL\src\main\resources" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_05_DynamicSQL\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Main.addEmp">
+  <component name="RunManager" selected="JUnit.Main.testCache">
+    <configuration name="Main.addEmp (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_05_DynamicSQL" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="addEmp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main.addEmp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_04_MapperCURD" />
       <option name="PACKAGE_NAME" value="" />
@@ -343,11 +378,11 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testHelloWorld (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_02_MapperInterface" />
+    <configuration name="Main.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_06_Cache" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="METHOD_NAME" value="testCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -376,17 +411,6 @@
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testHelloWorld" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_01_HelloWorld" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
@@ -396,11 +420,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Main.addEmp" />
-        <item itemvalue="JUnit.Main.testHelloWorld (3)" />
+        <item itemvalue="JUnit.Main.testCache" />
         <item itemvalue="JUnit.Main.testHelloWorld (2)" />
-        <item itemvalue="JUnit.Main.testHelloWorld (1)" />
-        <item itemvalue="JUnit.Main.testHelloWorld" />
+        <item itemvalue="JUnit.Main.addEmp" />
+        <item itemvalue="JUnit.Main.addEmp (1)" />
+        <item itemvalue="JUnit.Main.testHelloWorld (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -417,7 +441,7 @@
       <workItem from="1642175697395" duration="604000" />
       <workItem from="1642210878270" duration="2772000" />
       <workItem from="1642215610861" duration="12570000" />
-      <workItem from="1642418124996" duration="10107000" />
+      <workItem from="1642418124996" duration="15208000" />
     </task>
     <servers />
   </component>
@@ -445,42 +469,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="361" key="#SQL_Dialects/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642215822378" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642215828039">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642488705088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642215828039" />
-    <state x="579" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1642426404717">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642488705088" />
+    <state x="579" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1642496043521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="579" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642426404717" />
+    <state x="579" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642496043521" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1642427430368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642427430368" />
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom" timestamp="1642430782886">
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom" timestamp="1642496204623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642430782886" />
-    <state width="1877" height="262" key="GridCell.Tab.0.center" timestamp="1642430782886">
+    <state width="1877" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642496204623" />
+    <state width="1877" height="235" key="GridCell.Tab.0.center" timestamp="1642496204623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642430782886" />
-    <state width="1877" height="262" key="GridCell.Tab.0.left" timestamp="1642430782886">
+    <state width="1877" height="235" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642496204623" />
+    <state width="1877" height="235" key="GridCell.Tab.0.left" timestamp="1642496204623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642430782886" />
-    <state width="1877" height="262" key="GridCell.Tab.0.right" timestamp="1642430782886">
+    <state width="1877" height="235" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642496204623" />
+    <state width="1877" height="235" key="GridCell.Tab.0.right" timestamp="1642496204623">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="262" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642430782886" />
+    <state width="1877" height="235" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642496204623" />
     <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642216250047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642216250047" />
-    <state x="334" y="129" key="new project wizard" timestamp="1642426397823">
+    <state x="334" y="129" key="new project wizard" timestamp="1642496021600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="129" key="new project wizard/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642426397823" />
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642496021600" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1642430105195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
