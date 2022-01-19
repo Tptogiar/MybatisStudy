@@ -10,6 +10,8 @@
       <module fileurl="file://$PROJECT_DIR$/_05_DynamicSQL/_05_DynamicSQL.iml" filepath="$PROJECT_DIR$/_05_DynamicSQL/_05_DynamicSQL.iml" />
       <module fileurl="file://$PROJECT_DIR$/_06_Cache/_06_Cache.iml" filepath="$PROJECT_DIR$/_06_Cache/_06_Cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/_07_Ehcache/_07_Ehcache.iml" filepath="$PROJECT_DIR$/_07_Ehcache/_07_Ehcache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_08_Mybatis-Spring/_08_Mybatis-Spring.iml" filepath="$PROJECT_DIR$/_08_Mybatis-Spring/_08_Mybatis-Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_09_MybatisGenerator/_09_MybatisGenerator.iml" filepath="$PROJECT_DIR$/_09_MybatisGenerator/_09_MybatisGenerator.iml" />
     </modules>
   </component>
 </project>

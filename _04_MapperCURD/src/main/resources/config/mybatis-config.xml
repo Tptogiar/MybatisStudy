@@ -11,7 +11,7 @@
     </settings>
 
     <typeAliases>
-        <typeAlias type="pojo.po.UserPO"/>
+        <typeAlias type="com.po.UserPO"/>
     </typeAliases>
 
     <environments default="test">
