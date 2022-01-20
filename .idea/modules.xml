@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/_07_Ehcache/_07_Ehcache.iml" filepath="$PROJECT_DIR$/_07_Ehcache/_07_Ehcache.iml" />
       <module fileurl="file://$PROJECT_DIR$/_08_Mybatis-Spring/_08_Mybatis-Spring.iml" filepath="$PROJECT_DIR$/_08_Mybatis-Spring/_08_Mybatis-Spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/_09_MybatisGenerator/_09_MybatisGenerator.iml" filepath="$PROJECT_DIR$/_09_MybatisGenerator/_09_MybatisGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_10_SourceCodeReading/_10_SourceCodeReading.iml" filepath="$PROJECT_DIR$/_10_SourceCodeReading/_10_SourceCodeReading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_11_Plugin/_11_Plugin.iml" filepath="$PROJECT_DIR$/_11_Plugin/_11_Plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_12_PageHelper/_12_PageHelper.iml" filepath="$PROJECT_DIR$/_12_PageHelper/_12_PageHelper.iml" />
     </modules>
   </component>
 </project>
