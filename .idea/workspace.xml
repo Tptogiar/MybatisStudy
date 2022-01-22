@@ -170,6 +170,28 @@
       <change afterPath="$PROJECT_DIR$/_12_PageHelper/src/main/java/pojo/po/UserPO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/_12_PageHelper/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/_12_PageHelper/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/java/com/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/java/com/dao/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/java/com/pojo/po/UserPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/java/com/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/resources/config/SpringMVC.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/resources/config/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/resources/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/resources/mapper/Test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/com.springsource.org.aspectj.weaver-1.6.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/spring-aop-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/spring-aspects-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/spring-beans-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/spring-context-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/spring-core-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/spring-expression-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/spring-jdbc-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/lib/spring-tx-5.3.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_Batch/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Test/_01_TestSSM/TestSSM/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Test/_01_TestSSM/TestSSM/.idea/aws.xml" afterDir="false" />
@@ -470,11 +492,15 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_12_PageHelper/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_13_Batch/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -483,23 +509,23 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15143824" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="project.structure.side.proportion" value="0.34101382" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_13_Batch\src\main\webapp\WEB-INF" />
       <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_09_MybatisGenerator\src\main\resources" />
       <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_09_MybatisGenerator\src\main\java" />
       <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_08_Mybatis-Spring\src\main\webapp\WEB-INF" />
       <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_03_ConfigMyBatis\src\main\resources\config" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_01_HelloWorld\src\main\resources\mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_12_PageHelper\src\main\java" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_12_PageHelper\src\main\resources" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_11_Plugin\src\main\java" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_11_Plugin\src\main\resources" />
-      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_10_SourceCodeReading\src\main\java\plugin" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_13_Batch\src\main\webapp" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_13_Batch\src\main\resources" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_13_Batch\src\main\webapp\WEB-INF\lib" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\_13_Batch\src\main\java" />
+      <recent name="C:\MyFiles\CodeFile\Study\JAVA\Study\MybatisStudy\Demos\MybatisStudy\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -510,56 +536,45 @@
       <recent name="com.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Main.testPageInfoNavigatepage">
-    <configuration name="Main.testHelloWorld (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_11_Plugin" />
+  <component name="RunManager" selected="JUnit.Main.testBatch">
+    <configuration name="Main.testBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_13_Batch" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="METHOD_NAME" value="testBatch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testHelloWorld (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_12_PageHelper" />
+    <configuration name="Main.testCache (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_06_Cache" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testHelloWorld" />
+      <option name="METHOD_NAME" value="testCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testPageInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_12_PageHelper" />
+    <configuration name="Main.testCache (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_13_Batch" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testPageInfo" />
+      <option name="METHOD_NAME" value="testCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main.testPageInfoNavigatepage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_12_PageHelper" />
+    <configuration name="Main.testCache" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_08_Mybatis-Spring" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testPageInfoNavigatepage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main.testUsers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_12_PageHelper" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="METHOD_NAME" value="testUsers" />
+      <option name="METHOD_NAME" value="testCache" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -711,21 +726,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Tomcat Server.Tomcat 8.0.50" />
-      <item itemvalue="JUnit.Main.testHelloWorld (1)" />
-      <item itemvalue="JUnit.Main.testHelloWorld (2)" />
-      <item itemvalue="JUnit.Main.testUsers" />
-      <item itemvalue="JUnit.Main.testPageInfo" />
-      <item itemvalue="JUnit.Main.testPageInfoNavigatepage" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Main.testPageInfoNavigatepage" />
-        <item itemvalue="JUnit.Main.testPageInfo" />
-        <item itemvalue="JUnit.Main.testUsers" />
-        <item itemvalue="JUnit.Main.testHelloWorld (2)" />
-        <item itemvalue="JUnit.Main.testHelloWorld (1)" />
+        <item itemvalue="JUnit.Main.testBatch" />
+        <item itemvalue="JUnit.Main.testCache (2)" />
+        <item itemvalue="JUnit.Main.testCache (1)" />
+        <item itemvalue="JUnit.Main.testCache" />
       </list>
     </recent_temporary>
   </component>
@@ -750,7 +756,11 @@
       <workItem from="1642559306734" duration="19052000" />
       <workItem from="1642589900763" duration="2231000" />
       <workItem from="1642646593689" duration="22119000" />
-      <workItem from="1642680914595" duration="3556000" />
+      <workItem from="1642680914595" duration="4114000" />
+      <workItem from="1642691946582" duration="2441000" />
+      <workItem from="1642819639290" duration="1343000" />
+      <workItem from="1642821565562" duration="2069000" />
+      <workItem from="1642828580535" duration="2559000" />
     </task>
     <servers />
   </component>
@@ -770,18 +780,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1642561636098">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1642828207552">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642561636098" />
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642828207552" />
     <state x="337" y="361" key="#SQL_Dialects" timestamp="1642215822378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="337" y="361" key="#SQL_Dialects/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642215822378" />
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642649619737">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1642828551286">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642649619737" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642828551286" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1642590555834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -798,14 +808,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="579" y="197" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642561504506" />
-    <state x="576" y="496" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1642584141542">
+    <state x="576" y="496" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1642827817055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="576" y="496" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642584141542" />
-    <state x="770" y="496" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1642584136148">
+    <state x="576" y="496" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642827817055" />
+    <state x="770" y="496" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1642827811761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="770" y="496" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642584136148" />
+    <state x="770" y="496" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642827811761" />
     <state x="765" y="442" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1642562279169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -814,46 +824,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642573705141" />
+    <state x="711" y="344" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1642829885470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="344" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642829885470" />
     <state width="416" height="466" key="DebuggerActiveHint" timestamp="1642652338053">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="416" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642652338053" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1642681075014">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1642827806349">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642681075014" />
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom" timestamp="1642684806884">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642827806349" />
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom" timestamp="1642830382172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642684806884" />
-    <state width="1877" height="306" key="GridCell.Tab.0.center" timestamp="1642684806884">
+    <state width="1877" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642830382172" />
+    <state width="1877" height="413" key="GridCell.Tab.0.center" timestamp="1642830382172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642684806884" />
-    <state width="1877" height="306" key="GridCell.Tab.0.left" timestamp="1642684806884">
+    <state width="1877" height="413" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642830382172" />
+    <state width="1877" height="413" key="GridCell.Tab.0.left" timestamp="1642830382172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642684806884" />
-    <state width="1877" height="306" key="GridCell.Tab.0.right" timestamp="1642684806884">
+    <state width="1877" height="413" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642830382172" />
+    <state width="1877" height="413" key="GridCell.Tab.0.right" timestamp="1642830382172">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="306" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642684806884" />
-    <state width="1877" height="108" key="GridCell.Tab.1.bottom" timestamp="1642680891185">
+    <state width="1877" height="413" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642830382172" />
+    <state width="1877" height="376" key="GridCell.Tab.1.bottom" timestamp="1642829689848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="108" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642680891185" />
-    <state width="1877" height="108" key="GridCell.Tab.1.center" timestamp="1642680891185">
+    <state width="1877" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642829689848" />
+    <state width="1877" height="376" key="GridCell.Tab.1.center" timestamp="1642829689848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="108" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642680891185" />
-    <state width="1877" height="108" key="GridCell.Tab.1.left" timestamp="1642680891185">
+    <state width="1877" height="376" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642829689848" />
+    <state width="1877" height="376" key="GridCell.Tab.1.left" timestamp="1642829689848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="108" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642680891185" />
-    <state width="1877" height="108" key="GridCell.Tab.1.right" timestamp="1642680891185">
+    <state width="1877" height="376" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642829689848" />
+    <state width="1877" height="376" key="GridCell.Tab.1.right" timestamp="1642829689848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="108" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642680891185" />
+    <state width="1877" height="376" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642829689848" />
     <state width="1725" height="246" key="GridCell.Tab.2.bottom" timestamp="1642680891180">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -922,10 +936,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="600" y="223" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642681082492" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1642650852088">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1642829969186">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642650852088" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642829969186" />
     <state width="516" height="687" key="SwitcherDM" timestamp="1642659536606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -934,6 +948,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642660461202" />
+    <state x="658" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1642828057501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="411" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642828057501" />
     <state x="754" y="432" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1642216250047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -942,18 +960,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="833" y="228" width="1087" height="624" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642660828300" />
-    <state x="334" y="129" key="new project wizard" timestamp="1642682517626">
+    <state x="334" y="129" key="new project wizard" timestamp="1642827771930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="129" key="new project wizard/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642682517626" />
+    <state x="334" y="129" key="new project wizard/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642827771930" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1642682987520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642682987520" />
-    <state x="508" y="202" key="spring file set editor" timestamp="1642561634690">
+    <state x="508" y="202" key="spring file set editor" timestamp="1642828206397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="202" key="spring file set editor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642561634690" />
+    <state x="508" y="202" key="spring file set editor/0.0.1920.1040/1920.0.1360.728@0.0.1920.1040" timestamp="1642828206397" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1035,16 +1053,21 @@
           <line>147</line>
           <option name="timeStamp" value="46" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/_13_Batch/src/main/java/Main.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/_13_Batch/src/main/java/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="locationPattern.substring(CLASSPATH_ALL_URL_PREFIX.length())" language="JAVA" />
-      </configuration>
-      <configuration name="JUnit">
-        <watch expression="(Modifier.ABSTRACT | Modifier.PUBLIC | Modifier.STATIC)) == Modifier.PUBLIC)" language="JAVA" />
-        <watch expression="Modifier.PUBLIC" language="JAVA" />
-        <watch expression="Modifier.ABSTRACT | Modifier.PUBLIC | Modifier.STATIC" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

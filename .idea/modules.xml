@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/_10_SourceCodeReading/_10_SourceCodeReading.iml" filepath="$PROJECT_DIR$/_10_SourceCodeReading/_10_SourceCodeReading.iml" />
       <module fileurl="file://$PROJECT_DIR$/_11_Plugin/_11_Plugin.iml" filepath="$PROJECT_DIR$/_11_Plugin/_11_Plugin.iml" />
       <module fileurl="file://$PROJECT_DIR$/_12_PageHelper/_12_PageHelper.iml" filepath="$PROJECT_DIR$/_12_PageHelper/_12_PageHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_13_Batch/_13_Batch.iml" filepath="$PROJECT_DIR$/_13_Batch/_13_Batch.iml" />
     </modules>
   </component>
 </project>

@@ -5,6 +5,9 @@
 <mapper namespace="com.dao.UserMapper">
 
     <select id="getUserById" resultType="com.pojo.po.UserPO">
-    select * from User where id = #{id}
+        select * from User where id = #{id}
     </select>
+
+
+
 </mapper>

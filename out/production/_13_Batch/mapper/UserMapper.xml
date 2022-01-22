@@ -5,6 +5,12 @@
 <mapper namespace="com.dao.UserMapper">
 
     <select id="getUserById" resultType="com.pojo.po.UserPO">
-    select * from User where id = #{id}
+        select * from User where id = #{id}
     </select>
+
+
+    <insert id="insertOne" parameterType="com.pojo.po.UserPO">
+        insert into user (last_name,age) values (#{lastName},#{age})
+    </insert>
+
 </mapper>

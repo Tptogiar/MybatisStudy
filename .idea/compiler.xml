@@ -8,17 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="_05_DynamicSQL" />
-        <module name="_01_HelloWorld" />
-        <module name="_11_Plugin" />
-        <module name="_02_MapperInterface" />
-        <module name="_08_Mybatis-Spring" />
-        <module name="_09_MybatisGenerator" />
         <module name="_03_ConfigMyBatis" />
+        <module name="_11_Plugin" />
+        <module name="_10_SourceCodeReading" />
+        <module name="_02_MapperInterface" />
+        <module name="_13_Batch" />
+        <module name="_06_Cache" />
+        <module name="_01_HelloWorld" />
         <module name="_07_Ehcache" />
         <module name="_12_PageHelper" />
         <module name="_04_MapperCURD" />
-        <module name="_06_Cache" />
-        <module name="_10_SourceCodeReading" />
+        <module name="_08_Mybatis-Spring" />
+        <module name="_09_MybatisGenerator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -34,6 +35,7 @@
       <module name="_10_SourceCodeReading" target="6" />
       <module name="_11_Plugin" target="6" />
       <module name="_12_PageHelper" target="7" />
+      <module name="_13_Batch" target="8" />
       <module name="MybatisStudy" target="1.5" />
     </bytecodeTargetLevel>
   </component>
